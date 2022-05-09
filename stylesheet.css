@@ -4,9 +4,9 @@
 
 body {
     display: flex;
-     min-height: 100vh;
-     margin: 0;
-     flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: column;
 }
 
 button {
@@ -98,6 +98,8 @@ a {
 }
 
 .inspiring-quote{
+    display: flex;
+    flex-wrap: wrap;
     background-color: #E5E7EB;
     color: #1f2937;
     font-size: 36px;
@@ -111,7 +113,7 @@ a {
     justify-content: space-between;
     padding: 15px;
     border-radius: 5px;
-    margin: 35px;
+    margin: 48px;
     flex-wrap: wrap;
 }
 
@@ -133,10 +135,10 @@ a {
 
 .quotecontainer{
     display: flex;
+
 }
 
 .quotetext {
-    margin: 16px;
     display: flex;
     flex-wrap: wrap;
     margin: 48px;
