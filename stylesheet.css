@@ -1,0 +1,45 @@
+.body {
+    display: flex;
+}
+
+.header,
+.footer{
+    background-color: #1F2937;
+    display: flex;
+}
+
+.header {
+    justify-content: space-between;
+    
+}
+
+.footer {
+    justify-content: center;
+    color: #E5E7EB
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.information{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.inspiring-quote{
+    background-color: #E5E7EB;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.call-to-action {
+    
+}
