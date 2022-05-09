@@ -51,6 +51,10 @@ a {
     padding: 48px;
 }
 
+.herobutton{
+
+}
+
 .maintext {
     font-size: 48px;
     font-weight: 900;
@@ -69,15 +73,32 @@ a {
 
 .infocontainer{
     display: flex;
+    flex-wrap: wrap;
+    padding: 32px;
     margin-bottom: 16px;
-    border: px;
     justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 .information{
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
+    /* text-align: center;
+    align-items: center; */
+}
+
+.cardcontainer {
+    display: flex;
+}
+
+.infocard{
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px;
+    margin: 16px;
 }
 
 .inspiring-quote{
@@ -92,14 +113,19 @@ a {
     color: #E5E7EB;
     display: flex;
     justify-content: space-between;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 35px;
 }
 
 
-.button {
+.callbutton {
     background-color: #3882f6;
     color: #E5E7EB;
     border-radius: 10px;
-
+    border-style: double;
+    border-color: #E5E7EB;
+    padding: 5px;
 }
 
 .quotetext {
