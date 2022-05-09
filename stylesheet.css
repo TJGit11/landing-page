@@ -3,14 +3,15 @@
 } */
 
 body {
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-     */
-     display: flex;
+    display: flex;
      min-height: 100vh;
      margin: 0;
      flex-direction: column;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 10px;
 }
 
 .header,
@@ -21,9 +22,7 @@ body {
 }
 
 .header {
-    display: flex;
     justify-content: space-between;
-    
 }
 
 .footer {
@@ -49,10 +48,6 @@ a {
 .herocontainer{
     background-color: #1F2937;
     padding: 48px;
-}
-
-.herobutton{
-
 }
 
 .maintext {
@@ -94,11 +89,12 @@ a {
 }
 
 .infocard{
-    border: 2px solid red;
+    border: 2px solid #3882f6;
     display: flex;
     flex-wrap: wrap;
     padding: 16px;
     margin: 16px;
+    border-radius: 10px;
 }
 
 .inspiring-quote{
@@ -116,21 +112,33 @@ a {
     padding: 15px;
     border-radius: 5px;
     margin: 35px;
+    flex-wrap: wrap;
 }
 
+.calltext{
+    color: #F9FAF8;
+    font-weight: 700;
+}
 
-.callbutton {
-    background-color: #3882f6;
-    color: #E5E7EB;
-    border-radius: 10px;
-    border-style: double;
-    border-color: #E5E7EB;
+.callsubtext{
+
+}
+
+.callbutton{
+    border-style: outset;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
     padding: 5px;
+}
+
+.quotecontainer{
+    display: flex;
 }
 
 .quotetext {
     margin: 16px;
     display: flex;
     flex-wrap: wrap;
+    margin: 48px;
     
 }
