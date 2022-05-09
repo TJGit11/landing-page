@@ -1,5 +1,16 @@
-.body {
-    display: flex;
+*{
+    border: .5px solid red;
+}
+
+body {
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+     */
+     display: flex;
+     min-height: 100vh;
+     margin: 0;
+     flex-direction: column;
 }
 
 .header,
@@ -22,9 +33,20 @@ ul {
     list-style: none;
 }
 
+.header-links-right {
+    display: flex;
+    
+}
+
 a {
     color: #E5E7EB;
     text-decoration: none;
+}
+
+.maintext {
+    font-size: 48px;
+    font-weight: 900;
+    color:#E5E7EB
 }
 
 .information{
@@ -41,5 +63,21 @@ a {
 }
 
 .call-to-action {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-radius: 10px;
+
+}
+
+.quotetext {
+    margin: 16px;
     
 }
