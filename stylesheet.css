@@ -68,20 +68,18 @@ a {
 
 .infocontainer{
     display: flex;
-    flex-wrap: wrap;
     padding: 32px;
     margin-bottom: 16px;
     justify-content: center;
     text-align: center;
-    align-items: center;
 }
 
 .information{
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
-    /* text-align: center;
-    align-items: center; */
+    text-align: center;
+    align-items: center;
 }
 
 .cardcontainer {
@@ -95,6 +93,13 @@ a {
     padding: 16px;
     margin: 16px;
     border-radius: 10px;
+}
+
+p {
+    font-size: 14px;
+    text-align: center;
+    width: 180px;
+
 }
 
 .inspiring-quote{
