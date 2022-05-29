@@ -50,6 +50,14 @@ a {
     padding: 48px;
 }
 
+.imagecontainer {
+    display: flex;
+    color: white;
+    background-color: grey;
+    float: right;
+    padding: 20px;
+}
+
 .maintext {
     font-size: 48px;
     font-weight: 900;
