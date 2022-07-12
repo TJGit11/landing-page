@@ -7,7 +7,17 @@ body {
     min-height: 100vh;
     margin: 0;
     flex-direction: column;
+    flex-wrap: wrap;
 }
+
+blockquote {
+    /* display: flex; */
+    background-color: #E5E7EB
+    
+}
+
+
+
 
 button {
     background-color: #3882f6;
@@ -97,28 +107,33 @@ a {
 
 .cardcontainer {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
-p{
+/* p{
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 14px;
     width: 180px;
     flex-wrap: wrap;
+    width: 160px;
+    height: 160px;
     
-}
+    
+} */
 
 .infocard{
     border: 2px solid #3882f6;
     display: flex;
-    flex-wrap: wrap;
     padding: 16px;
     margin: 16px;
     border-radius: 10px;
+    max-width: 200px;
+    align-items: center;
+    text-align: center;
 }
 
 .inspiring-quote{
@@ -146,9 +161,7 @@ p{
     font-weight: 700;
 }
 
-.callsubtext{
 
-}
 
 .callbutton{
     border-style: outset;
@@ -159,6 +172,7 @@ p{
 
 .quotecontainer{
     display: flex;
+    flex-wrap: wrap;
 
 }
 
